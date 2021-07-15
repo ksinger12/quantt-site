@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Side Note
 
-To see the blog, you will need a ButterCMS api token. You can create a free account [here](https://buttercms.com/?gclid=CjwKCAjwlrqHBhByEiwAnLmYUGwxbXLefOiv0o64gSQ8JcQ8x3Lq4C9OAyeLmRX6kLfG3jkU7WO-jBoCOwIQAvD_BwE)
+To see the blog, you will need a ButterCMS api token. You can create a free account [here](https://buttercms.com/?gclid=CjwKCAjwlrqHBhByEiwAnLmYUGwxbXLefOiv0o64gSQ8JcQ8x3Lq4C9OAyeLmRX6kLfG3jkU7WO-jBoCOwIQAvD_BwE).
 
 ## Available Scripts
 
