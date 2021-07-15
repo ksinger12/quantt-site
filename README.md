@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# QUANTT Mockup Site
+
+This is a mockup react site made with ButterCMS (for a blog) for Queen's Undergraduate Algorithmic Trading Team.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Base Project
+
+If you are looking for a less detailed site, https://github.com/Aqveduktis/react-business-site contains a simpler setup (this project's base code).
