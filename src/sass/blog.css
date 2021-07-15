@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  padding: 20px 50px;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.logo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: block;
+  float: left;
+}
+
+.menu li:not(:last-child) {
+  margin-right: 20px;
+}
+
+main {
+  flex: 1;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.home img {
+  width: 100%;
+}
+
+.home button {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 15px 5px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: rgba(219, 219, 219, 0.733);
+}
+
+footer a {
+  font-weight: 600;
+}
+
+footer a:visited {
+  color: inherit;
+}
+
+.post-snippet {
+  border-left: 1px solid black;
+  padding-left: 15px;
+}
+
+.publication-date {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.post img {
+  max-width: 100%;
+}
+
+.author {
+  display: flex;
+}
+
+.author img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.author div {
+  align-self: center;
+  margin-left: 15px;
+}
+
+.main-blog {
+  text-align: center;
+}
+
+.inner-blog {
+  display: inline-block;
+  text-align: left;
+}
+
+.post-snippet {
+  background-color: #9db0f3;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  border: rgba(0, 0, 0, 0.24);
+  padding-bottom: 20px;
+  margin-top: 30px;
+  float: left;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.post-snippet a {
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #2452a1;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
+
+.blog-header {
+  background-color: #2452a1;
+  color: white;
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+}
+
+@media (max-width: 767px) {
+  nav {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  main {
+    max-width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}

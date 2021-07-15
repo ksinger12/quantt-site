@@ -1,0 +1,102 @@
+.about-section {
+  background-color: #2452a1;
+  padding: 30px 30px 30px 100px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.timeline-title {
+  padding: 30px 0px 0px 0px;
+  color: #2452a1;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-section img {
+  width: 350px;
+  height: auto;
+  float: left;
+  padding-right: inherit;
+}
+
+.about-section h1 {
+  padding-top: 30px;
+}
+
+.about-section p {
+  padding: inherit;
+  font-size: large;
+}
+
+.pillars {
+  border-bottom: 2px solid #2452a1;
+  padding: 0px 30px 235px 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.pillars-title h1 {
+  padding: 30px 0px 0px 0px;
+  color: #2452a1;
+  text-align: center;
+}
+
+.pillars h3 {
+  padding: 30px 0px 0px 30px;
+  color: #2452a1;
+  /* text-align: center; */
+}
+
+.pillars p {
+  padding: 0px 0px 0px 30px;
+}
+
+.pillars img {
+  height: auto;
+  position: relative;
+}
+
+.pillar-first-section {
+  float: left;
+  width: 30%;
+  height: 280px;
+}
+
+.pillar-first-section img {
+  width: 63%;
+}
+
+.pillar-second-section {
+  float: left;
+  width: 40%;
+  height: 280px;
+}
+
+.pillar-second-section img {
+  width: 48%;
+}
+
+.pillar-third-section {
+  float: left;
+  width: 30%;
+  height: 280px;
+}
+
+.pillar-third-section img {
+  width: 63%;
+}
+
+.common-section img {
+  height: auto;
+  max-width: 110%;
+}
+
+.vertical-timeline-element--work {
+  padding-left: 21px;
+}

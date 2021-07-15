@@ -1,0 +1,17 @@
+.top-row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.team-header {
+  background-color: #2452a1;
+  color: white;
+  text-align: center;
+  padding: 3px 0px 30px 0px;
+}
+
+.team-header p {
+  word-spacing: 22px;
+  display: inline;
+}
